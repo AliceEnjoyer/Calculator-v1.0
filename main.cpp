@@ -1,14 +1,6 @@
 #include <QApplication>
 #include <QtWidgets>
 
-/*class buttonDelegate : public QStyledItemDelegate {
-public:
-    buttonDelegate(QObject *obj = NULL) : QStyledItemDelegate(obj) {}
-    void paint(QPainter* painter, const QStyleOptionButton& option) override{
-
-    }
-};*/
-
 class calculator : public QWidget{
 public:
     QPushButton *b1 = new QPushButton("1", this), *b2 = new QPushButton("2", this), *b3 = new QPushButton("3", this), *b4 = new QPushButton("4", this),
